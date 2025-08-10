@@ -19,9 +19,9 @@ query = input('Enter a region: ')
 try:
     # Realtime API
     api_response = api_instance.realtime_weather(query)
-    pprint(api_response)
-    print(api_response.keys())
-    #print(f"Current data is {api_response.localtime}")
+    #pprint(api_response)
+    print(f"Current data & time is {api_response["localtime"]['localtime']}")
+    
 
 except ApiException as e:
     print("Exception when calling APIsApi->realtime_weather: %s\n" % e)
