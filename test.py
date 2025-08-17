@@ -31,6 +31,7 @@ data = {'current': {'cloud': 0,
              'wind_dir': 'WNW',
              'wind_kph': 3.6,
              'wind_mph': 2.2,
+             
              'windchill_c': 27.3,
              'windchill_f': 81.1},
  'location': {'country': 'United Kingdom',

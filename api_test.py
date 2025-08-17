@@ -20,7 +20,7 @@ try:
     # Realtime API
     api_response = api_instance.realtime_weather(query)
     #pprint(api_response)
-    print(f"Current data & time is {api_response["localtime"]['localtime']}")
+    print(f"Current data & time is {api_response["location"]['localtime']}")
     
 
 except ApiException as e:
