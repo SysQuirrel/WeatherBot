@@ -23,7 +23,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("bot.log"),  # save logs to bot.log
-        logging.StreamHandler()  # also print to console
+        logging.StreamHandler() 
     ]
 )
 logger = logging.getLogger(__name__)
