@@ -1,4 +1,5 @@
 .env
 .cache.sqlite
 api_test.py
+test.py
 bot.log
